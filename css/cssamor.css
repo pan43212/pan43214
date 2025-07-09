@@ -1,0 +1,89 @@
+body {background-color: rgb(236, 191, 160);}
+.cabeza{
+    border: 4px; 
+    border-style: solid;
+    border-color: rgb(51, 105, 87);
+    border-radius: 0px 40px 40px 40px;
+}
+h1{text-align: center; color: hsl(0, 25%, 39%);}
+
+#quiero{
+    text-align: center; color:  hsl(0, 25%, 39%);
+    text-decoration: underline;
+    text-shadow: 0 5px 5px rgb(43, 41, 41);
+    
+}
+
+#contenfoto1{
+    border: 4px; 
+ 
+    
+    width: 30%;
+    left;: 50%
+    position: absolute;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+  
+    
+}
+
+
+.foto11{
+   width: 200px;
+  height: auto;
+  box-shadow: 0 5px 5px rgb(43, 41, 41)
+
+}
+
+#contenfoto4{
+     width: 30%;
+    left;: 20%
+}
+
+details {
+  background: #c8865a;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+
+.audio-mini {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #007acc;
+      border-radius: 30px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .audio-mini button {
+      background: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      color: #cea95f;
+      cursor: pointer;
+    }
+
+    .audio-mini button:active {
+      transform: scale(0.95);
+    }
